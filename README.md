@@ -19,3 +19,6 @@ How it works?
 2) Logs into the configuration web portal using $phone_user and $phone_pass combination , and obtains the jsessid cookie from Chrome.
 3) Uses curl to upload the cfg file to the config import page in the configuration web portal of the Yealink device.
 4) Repeats 1-3 for each IP in the array.
+
+
+If you update the script, please submit a commit request.
